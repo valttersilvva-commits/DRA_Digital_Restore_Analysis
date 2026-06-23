@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="230" viewBox="0 0 260 230">
+<defs><radialGradient id="r" cx="50%" cy="50%" r="55%"><stop stop-color="#00E5FF" stop-opacity=".20"/><stop offset="1" stop-color="#00E5FF" stop-opacity="0"/></radialGradient><filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="260" height="230" rx="28" fill="#071326"/>
+<circle cx="130" cy="112" r="100" fill="url(#r)"/>
+<g filter="url(#g)"><rect x="44" y="60" width="152" height="88" rx="14" fill="#081529" stroke="#00E5FF" stroke-width="3"/><path d="M64 82h40M64 104h70M64 126h44M160 78v56" stroke="#008CFF" stroke-width="5" stroke-linecap="round"/><rect x="178" y="84" width="18" height="40" rx="4" fill="#00E5FF" opacity=".7"/></g>
+<text x="130" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#EAF6FF">SSD</text>
+</svg>

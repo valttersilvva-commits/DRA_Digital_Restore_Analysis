@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="64" viewBox="0 0 220 64">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#00E5FF"/>
+<stop offset="100%" stop-color="#008CFF"/>
+</linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="4" y="8" width="52" height="48" rx="14" fill="#081529" stroke="url(#g)" stroke-width="2"/>
+<path d="M18 42V22h12c8 0 14 4 14 10s-6 10-14 10H18Zm8-6h4c4 0 7-1 7-4s-3-4-7-4h-4v8Z" fill="url(#g)" filter="url(#glow)"/>
+<text x="68" y="30" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#EAF6FF">DRA</text>
+<text x="68" y="48" font-family="Arial, sans-serif" font-size="12" fill="#9fc4df">Digital Restore Analysis</text>
+</svg>
