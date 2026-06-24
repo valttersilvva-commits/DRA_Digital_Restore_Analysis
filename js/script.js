@@ -89,7 +89,7 @@ const form = document.getElementById("whatsappForm");
 form?.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const numero = "5511971656389"; // Exemplo: 5511971656389
+  const numero = "5511949180508"; // Exemplo: 5511971656389
 
   const nome = document.getElementById("nome").value.trim();
   const telefone = document.getElementById("telefone").value.trim();
