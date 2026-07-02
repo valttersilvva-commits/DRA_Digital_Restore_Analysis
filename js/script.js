@@ -3,7 +3,7 @@ const menuToggle = document.querySelector(".menu-toggle");
 const mainNav = document.querySelector(".main-nav");
 
 window.addEventListener("scroll", () => {
-  header.classList.toggle("scrolled", window.scrollY > 20);
+  header?.classList.toggle("scrolled", window.scrollY > 20);
 });
 
 menuToggle?.addEventListener("click", () => {
@@ -51,7 +51,7 @@ function createDots() {
 
 function updateCarousel() {
   slides.forEach((slide, index) => slide.classList.toggle("active", index === currentSlide));
-  dotsContainer.querySelectorAll("button").forEach((dot, index) => dot.classList.toggle("active", index === currentSlide));
+  dotsContainer?.querySelectorAll("button").forEach((dot, index) => dot.classList.toggle("active", index === currentSlide));
 }
 
 function goToSlide(index) {
@@ -114,7 +114,8 @@ ${mensagem || "Sem mensagem adicional"}`;
     return;
   }
 
-  window.open(`https://wa.me/${numero}?text=${encodeURIComponent(texto)}`, "_blank");
+  window.open(`https://wa.me/${numero}?text=${encodeURIComponent(texto)}`, "_blank", "noopener,noreferrer");
+  form.reset();
 });
 
 
