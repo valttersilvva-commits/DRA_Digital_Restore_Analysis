@@ -98,7 +98,7 @@ form?.addEventListener("submit", (event) => {
   const arquivos = document.getElementById("arquivos").value.trim();
   const mensagem = document.getElementById("mensagem").value.trim();
 
-  const texto = `Olá, gostaria de uma avaliação DRA.
+  const texto = `Olá, gostaria de uma avaliação.
 
 Nome: ${nome}
 WhatsApp: ${telefone}
